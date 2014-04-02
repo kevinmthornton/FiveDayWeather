@@ -22,6 +22,7 @@
 		2CB4358018B68DF9004DE8B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB4355F18B68DF8004DE8B9 /* UIKit.framework */; };
 		2CB4358818B68DF9004DE8B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4358618B68DF9004DE8B9 /* InfoPlist.strings */; };
 		2CB4358A18B68DF9004DE8B9 /* FiveDayWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4358918B68DF9004DE8B9 /* FiveDayWeatherTests.m */; };
+		2CB4359518B6B483004DE8B9 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4359418B6B483004DE8B9 /* WeatherData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		2CB4358518B68DF9004DE8B9 /* FiveDayWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiveDayWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		2CB4358718B68DF9004DE8B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CB4358918B68DF9004DE8B9 /* FiveDayWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveDayWeatherTests.m; sourceTree = "<group>"; };
+		2CB4359318B6B483004DE8B9 /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		2CB4359418B6B483004DE8B9 /* WeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				2CB4357118B68DF9004DE8B9 /* MasterViewController.m */,
 				2CB4357318B68DF9004DE8B9 /* DetailViewController.h */,
 				2CB4357418B68DF9004DE8B9 /* DetailViewController.m */,
+				2CB4359318B6B483004DE8B9 /* WeatherData.h */,
+				2CB4359418B6B483004DE8B9 /* WeatherData.m */,
 				2CB4357618B68DF9004DE8B9 /* Images.xcassets */,
 				2CB4356218B68DF8004DE8B9 /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB4359518B6B483004DE8B9 /* WeatherData.m in Sources */,
 				2CB4356C18B68DF9004DE8B9 /* AppDelegate.m in Sources */,
 				2CB4357218B68DF9004DE8B9 /* MasterViewController.m in Sources */,
 				2CB4356818B68DF8004DE8B9 /* main.m in Sources */,

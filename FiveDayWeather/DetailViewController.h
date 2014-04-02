@@ -10,7 +10,13 @@
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property(nonatomic, strong) NSDictionary *weatherForToday;
+@property (weak, nonatomic) IBOutlet UIImageView *weatherImage;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *weatherDesc;
+@property (weak, nonatomic) IBOutlet UILabel *highTemp;
+@property (weak, nonatomic) IBOutlet UILabel *lowTemp;
+@property (weak, nonatomic) IBOutlet UILabel *windDirection;
+@property (weak, nonatomic) IBOutlet UILabel *windSpeed;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

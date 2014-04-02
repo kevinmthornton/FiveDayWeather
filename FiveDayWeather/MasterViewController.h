@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
+@class WeatherData;
+
+@interface MasterViewController : UITableViewController <UITextFieldDelegate>
+
+@property(nonatomic, strong) NSArray *weatherArray;
+@property(nonatomic, strong) UITextField *zipCodeField;
+
+// method for upper right button
+-(void)retrieveWeatherData;
 
 @end
